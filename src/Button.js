@@ -69,7 +69,7 @@ const StyledButton = styled.button`
       }
 
       &:focus {
-        box-shadow: ${rgba(color.primary, 0.4)} 0 1px 9px 2px;
+        box-shadow: ${rgba(color.primary, 0.3)} 0 1px 9px 2px;
       }
 
       &:focus:hover {
@@ -88,7 +88,7 @@ const StyledButton = styled.button`
   }
 
   svg {
-    height: ${props => (props.size === SIZES.SMALL ? '14' : '16')}px;
+    height: ${props => (props.size === SIZES.SMALL ? '13' : '15')}px;
     width: ${props => (props.size === SIZES.SMALL ? '14' : '16')}px;
     vertical-align: top;
     margin-right: ${props => (props.size === SIZES.SMALL ? '4' : '6')}px;
@@ -158,7 +158,7 @@ const StyledButton = styled.button`
       color: ${color.lightest};
 
       ${!props.isLoading &&
-        `
+    `
           &:hover {
             background: ${darken(0.05, color.primary)};
           }
@@ -181,7 +181,7 @@ const StyledButton = styled.button`
       color: ${color.lightest};
 
       ${!props.isLoading &&
-        `
+    `
           &:hover {
             background: ${darken(0.05, color.secondary)};
           }
@@ -204,7 +204,7 @@ const StyledButton = styled.button`
       color: ${color.darkest};
 
       ${!props.isLoading &&
-        `
+    `
           &:hover {
             background: ${darken(0.05, color.tertiary)};
           }
@@ -228,7 +228,7 @@ const StyledButton = styled.button`
       background: transparent;
 
       ${!props.isLoading &&
-        `
+    `
           &:hover {
             box-shadow: ${color.mediumdark} 0 0 0 1px inset;
           }
@@ -240,22 +240,22 @@ const StyledButton = styled.button`
           }
           &:focus {
             box-shadow: ${color.medium} 0 0 0 1px inset, ${rgba(
-          color.secondary,
-          0.4
-        )} 0 1px 9px 2px;
+      color.secondary,
+      0.4
+    )} 0 1px 9px 2px;
           }
           &:focus:hover {
             box-shadow: ${color.medium} 0 0 0 1px inset, ${rgba(
-          color.secondary,
-          0.2
-        )} 0 8px 18px 0px;
+      color.secondary,
+      0.2
+    )} 0 8px 18px 0px;
           }
         `};
     `};
 
     ${props =>
-      props.appearance === APPEARANCES.PRIMARY_OUTLINE &&
-      `
+    props.appearance === APPEARANCES.PRIMARY_OUTLINE &&
+    `
         box-shadow: ${color.primary} 0 0 0 1px inset;
         color: ${color.primary};
 
@@ -278,8 +278,8 @@ const StyledButton = styled.button`
       `};
 
     ${props =>
-      props.appearance === APPEARANCES.SECONDARY_OUTLINE &&
-      `
+    props.appearance === APPEARANCES.SECONDARY_OUTLINE &&
+    `
         box-shadow: ${color.secondary} 0 0 0 1px inset;
         color: ${color.secondary};
 

@@ -13,7 +13,7 @@ const Item = styled.li`
   display: inline-flex;
   flex-direction: row;
   align-items: center;
-  flex: 0 1 20%;
+  flex: 0 1 21%;
   min-width: 120px;
 
   padding: 0px 7.5px 20px;
@@ -84,18 +84,18 @@ export const Inline = (args) => (
     this is an inline <Icon {...args} /> icon (default)
   </Fragment>
 );
-Inline.args={
-  icon:'facehappy',
-  "aria-label":'Happy face',
+Inline.args = {
+  icon: 'facehappy',
+  "aria-label": 'Happy face',
 };
 
-export const Block = (args) =>(
+export const Block = (args) => (
   <Fragment>
     this is a block <Icon {...args} /> icon
   </Fragment>
 );
-Block.args={
-  icon:'facehappy',
-  "aria-label":'Happy face',
-  block:true
+Block.args = {
+  icon: 'facehappy',
+  "aria-label": 'Happy face',
+  block: true
 };
