@@ -1,11 +1,7 @@
-# v0.1.1 (Fri Aug 12 2022)
+# v0.1.0 (Tue Mar 09 2021)
 
-#### ⚠️ Pushed to `main`
-
-- Add accessibility addon ([@ibrahimkonuk](https://github.com/ibrahimkonuk))
-- Add stories ([@ibrahimkonuk](https://github.com/ibrahimkonuk))
-- first commit ([@ibrahimkonuk](https://github.com/ibrahimkonuk))
+- Created first version of the design system, with `Avatar`, `Badge`, `Button`, `Icon` and `Link` components.
 
 #### Authors: 1
 
-- Ibrahim Konuk ([@ibrahimkonuk](https://github.com/ibrahimkonuk))
+- [ibrahimkonuk](https://github.com/ibrahimkonuk)
