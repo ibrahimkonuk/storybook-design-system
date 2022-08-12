@@ -79,7 +79,6 @@
     "prettier": "^2.7.1"
   },
   "readme": "ERROR: No README data found!",
-  "_id": "storybook-design-system@0.1.0",
   "main": "index.js",
   "repository": "https://github.com/ibrahimkonuk/storybook-design-system.git",
   "author": "ikonuk <28847139+ibrahimkonuk@users.noreply.github.com>",
